@@ -45,3 +45,6 @@ people.forEach(person => {
 console.log(html);
 
 ul.innerHTML = html;
+
+
+console.log(`Hello`);
