@@ -1,68 +1,67 @@
-// // // // // // const para = document.querySelector('body > h1');
+// const para = document.querySelector('body > h1');
+// console.log(para);
 
-// // // // // // console.log(para);
+// const para = document.querySelectorAll('p');
 
-// // // // // // const para = document.querySelectorAll('p');
+// para.forEach(para => {
+//     console.log(para);
+// });
 
-// // // // // // para.forEach(para => {
-// // // // // //     console.log(para);
-// // // // // // });
+// const title = document.getElementById('page-title')
+// console.log(title)
 
-// // // // // // const title = document.getElementById('page-title')
-// // // // // // console.log(title)
+// const errors = document.getElementsByClassName('error');
+// console.log(errors)
 
-// // // // // // const errors = document.getElementsByClassName('error');
-// // // // // // console.log(errors)
+// const para = document.querySelector('p');
 
-// // // // // const para = document.querySelector('p');
+// console.log(para.innerText)
 
-// // // // // console.log(para.innerText)
+// para.innerText += ' Please kill me!'
 
-// // // // // para.innerText += ' Please kill me!'
+// const paras = document.querySelectorAll('p');
 
-// // // // // const paras = document.querySelectorAll('p');
+// paras.forEach( (paras, index) => {
+//     paras.innerText += (' ' + index)
+// });
 
-// // // // // paras.forEach(paras => {
-// // // // //     paras.innerText += ' 0'
-// // // // // });
+// const content = document.querySelector('.content');
 
-// // // // // const content = document.querySelector('.content');
+// content.innerHTML = '<h2>nadpisany content</h2>'
 
-// // // // // // content.innerHTML = '<h2>nadpisany content</h2>'
+// const people = ['Caleb','Nott','Yasha'];
 
-// // // // // const people = ['Caleb','Nott','Yasha'];
-
-// // // // // people.forEach(person => {
-// // // // //     content.innerHTML += `<p>${person}</p>`
-// // // // // });
-
-
-// // // // const link = document.querySelector('a');
-
-// // // // link.setAttribute('href','www.bing.com')
-// // // // link.innerText = 'Bing';
-// // // // console.log(link.getAttribute('href'));
-
-// // // // const mssg = document.querySelector('p');
-
-// // // // mssg.setAttribute('class','success');
-// // // // mssg.setAttribute('style','color:green');
+// people.forEach(person => {
+//     content.innerHTML += `<p>${person}</p>`
+// });
 
 
-// // // const title = document.querySelector('h1');
+// const link = document.querySelector('a');
 
-// // // console.log(title.style.color)
+// link.setAttribute('href','https://www.bing.com')
+// link.innerText = 'Bing';
+// console.log(link.getAttribute('href'));
 
-// // // title.style.margin = '50px';
-// // // title.style.fontSize = '60px';
+// const mssg = document.querySelector('p');
 
-// // const content = document.querySelector('p');
+// mssg.setAttribute('class','success');
+// mssg.setAttribute('style','color:green');
 
-// // console.log(content.classList)
 
-// // //content.classList.add('error');
-// // content.classList.remove('error');
-// // content.classList.add('success');
+// const title = document.querySelector('h1');
+
+// console.log(title.style.color)
+
+// title.style.margin = '50px';
+// title.style.fontSize = '60px';
+
+// const content = document.querySelector('p');
+
+// console.log(content.classList)
+
+// content.classList.add('error');
+// content.classList.remove('error');
+// content.classList.add('success');
 
 // const paras = document.querySelectorAll('p');
 
@@ -81,7 +80,7 @@
 // title.classList.toggle('test');
 
 
-const article = document.querySelector('article');
+// const article = document.querySelector('article');
 
 // console.log(article.children);
 
