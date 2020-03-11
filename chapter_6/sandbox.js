@@ -1,12 +1,12 @@
-// // // // // // const para = document.querySelector('body > h1');
+// const para = document.querySelector('body > h1');
 
-// // // // // // console.log(para);
+// console.log(para);
 
-// // // // // // const para = document.querySelectorAll('p');
+const para = document.querySelectorAll('p');
 
-// // // // // // para.forEach(para => {
-// // // // // //     console.log(para);
-// // // // // // });
+para.forEach(para => {
+    console.log(para);
+});
 
 // // // // // // const title = document.getElementById('page-title')
 // // // // // // console.log(title)
@@ -81,19 +81,19 @@
 // title.classList.toggle('test');
 
 
-const article = document.querySelector('article');
+// const article = document.querySelector('article');
 
-// console.log(article.children);
+// // console.log(article.children);
 
-// console.log(Array.from(article.children));
+// // console.log(Array.from(article.children));
 
-// Array.from(article.children).forEach(child => {
-//     child.classList.add('article-element');
-// })
+// // Array.from(article.children).forEach(child => {
+// //     child.classList.add('article-element');
+// // })
 
-const title = document.querySelector('h2');
+// const title = document.querySelector('h2');
 
-console.log(title.parentElement.parentElement);
+// console.log(title.parentElement.parentElement);
 
-console.log(title.nextElementSibling);
-console.log(title.previousElementSibling);
+// console.log(title.nextElementSibling);
+// console.log(title.previousElementSibling);
