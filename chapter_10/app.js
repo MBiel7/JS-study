@@ -13,11 +13,23 @@ const generateTemplate = todo => {
   list.innerHTML += html
 }
 
+const filterTodos = (term) =>{
+  console.log(Array.from(list.children))
+
+  Array.from(list.children)
+    .filter(todo => !todo.textContent.toLowerCase().includes(term))
+    .forEach(todo => todo.classList.add('filtered'));
+
+  Array.from(list.children)
+    .filter(todo => todo.textContent.toLowerCase().includes(term))
+    .forEach(todo => todo.classList.remove('filtered'));
+};
+
 addForm.addEventListener('submit', e => {
 
   e.preventDefault();
 
-  const todo = addForm.add.value.trim()
+  const todo = addForm.add.value.trim();
 
   console.log(todo)
 
@@ -29,4 +41,20 @@ addForm.addEventListener('submit', e => {
 
 })
 
+//delete
 
+list.addEventListener('click', e => {
+
+  if(e.target.classList.contains('delete')){
+    e.target.parentElement.remove();
+  }
+
+})
+
+//filter
+const search = document.querySelector('.search input[name=search]');
+
+search.addEventListener('keyup', e => {
+  const term = e.target.value.trim().toLowerCase();
+  filterTodos(term)
+})
